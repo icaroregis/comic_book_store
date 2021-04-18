@@ -1,0 +1,67 @@
+.container-home {
+  max-width: 1120px;
+  width: 100%;
+  margin: 20px auto;
+  background-color: grey;
+  border-radius: 7px;
+  opacity: 0.8;
+}
+
+.div-title {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.heroesImage {
+  width: 130px;
+  height: auto;
+}
+
+.section-padrao {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-image-paragraph {
+  margin-left: 30px;
+}
+
+.section-master {
+  display: block;
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.paragraph{
+  font-weight: bold;  
+}
+
+.button:hover {
+  color: white;
+  background: darkgreen;
+  transform: scale(1.2);
+}
+
+.button {
+  color: white;
+  width: 180px;
+  height: 70px;
+  border-radius: 5px;
+  background: darkgreen; 
+  font-size: bold;
+  font-size: 20px;
+  border: none;
+  border-radius: 5px;
+  transition: 0.5s all;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+.alert-title {
+  color: white;
+}

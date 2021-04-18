@@ -1,0 +1,44 @@
+.container-header {
+  height: 70px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 20px;
+}
+
+/* align-itens é para colunas, justify-content é para linhas*/
+.imagem-header {
+  width: 82px;
+  height: 31px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+nav {
+  align-items: center;
+}
+
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+  text-decoration: none;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color:#EE171F;
+  text-decoration: none;
+  cursor: pointer;
+}
+
